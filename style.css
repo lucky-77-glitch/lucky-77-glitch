@@ -2773,3 +2773,101 @@ nav a.active {
         height: 50px;
     }
 }
+.music-toggle {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 999;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px 14px;
+
+    border: 1px solid rgba(0, 234, 255, 0.35);
+    border-radius: 8px;
+
+    background: rgba(2, 8, 20, 0.82);
+    color: #8da5b8;
+
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+    backdrop-filter: blur(12px);
+
+    box-shadow:
+        0 0 15px rgba(0, 234, 255, 0.05),
+        inset 0 0 12px rgba(0, 234, 255, 0.02);
+
+    transition:
+        color 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        transform 0.25s ease;
+}
+
+.music-toggle:hover {
+    color: #00eaff;
+    border-color: rgba(0, 234, 255, 0.8);
+
+    box-shadow:
+        0 0 12px rgba(0, 234, 255, 0.25),
+        0 0 30px rgba(0, 174, 255, 0.08);
+
+    transform: translateY(-2px);
+}
+
+.music-icon {
+    font-size: 14px;
+    color: #657d91;
+    transition: 0.25s ease;
+}
+
+.music-toggle.active {
+    color: #00eaff;
+    border-color: rgba(0, 234, 255, 0.85);
+
+    box-shadow:
+        0 0 10px rgba(0, 234, 255, 0.3),
+        0 0 25px rgba(0, 174, 255, 0.12),
+        inset 0 0 12px rgba(0, 234, 255, 0.05);
+}
+
+.music-toggle.active .music-icon {
+    color: #00eaff;
+    text-shadow:
+        0 0 6px rgba(0, 234, 255, 0.9),
+        0 0 15px rgba(0, 234, 255, 0.6);
+
+    animation: musicPulse 1s ease-in-out infinite;
+}
+
+@keyframes musicPulse {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2px);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .music-toggle {
+        right: 15px;
+        bottom: 15px;
+
+        padding: 9px 11px;
+        font-size: 9px;
+    }
+
+    .music-icon {
+        font-size: 13px;
+    }
+       }
