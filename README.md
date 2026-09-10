@@ -12,7 +12,7 @@ Interested in:
 
 ## 🌐 My Portfolio
 
-[**Visit My Website →**](https://lucky-77-glitch.github.io/)
+[**Visit My Website →**](https://lucky-77-glitch.github.io/lucky-77-glitch/)
 
 ---
 
