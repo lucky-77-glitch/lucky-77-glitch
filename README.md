@@ -1,12 +1,12 @@
-Mokhamad Lutfi Oktaviano
+Mokhammad Lutfi Oktaviano
 
 💻 Student Developer from Indonesia
 
-Mokhamad Lutfi Oktaviano is a student developer from Tulungagung, East Java, Indonesia, interested in programming, web development, game development, and cybersecurity.
+Mokhammad Lutfi Oktaviano is a student developer from Tulungagung, East Java, Indonesia, interested in programming, web development, game development, and cybersecurity.
 
 👤 About Me
 
-- Name: Mokhamad Lutfi Oktaviano
+- Name: Mokhammad Lutfi Oktaviano
 - Born: Pagerwojo, Tulungagung, East Java, Indonesia
 - Date of Birth: October 10, 2012
 - Country: Indonesia
@@ -56,13 +56,13 @@ I am continuously learning through personal projects, experiments, and programmi
 
 ---
 
-🔎 About Mokhamad Lutfi Oktaviano
+🔎 About Mokhammad Lutfi Oktaviano
 
-Mokhamad Lutfi Oktaviano is an Indonesian student developer from Pagerwojo, Tulungagung, East Java. He is interested in technology and is developing his skills in programming, web development, game development, and cybersecurity.
+Mokhammad Lutfi Oktaviano is an Indonesian student developer from Pagerwojo, Tulungagung, East Java. He is interested in technology and is developing his skills in programming, web development, game development, and cybersecurity.
 
 This GitHub profile serves as a public portfolio of his programming projects, experiments, and learning journey.
 
-Keywords: Mokhamad Lutfi Oktaviano, Lutfi Oktaviano, Mokhamad Lutfi, student developer Indonesia, developer Tulungagung, programmer Tulungagung, Pagerwojo developer, East Java student developer, Indonesia programming, web development, game development, cybersecurity, GitHub developer.
+Keywords: Mokhammad Lutfi Oktaviano, Lutfi Oktaviano, Mokhammad Lutfi, student developer Indonesia, developer Tulungagung, programmer Tulungagung, Pagerwojo developer, East Java student developer, Indonesia programming, web development, game development, cybersecurity, GitHub developer.
 
 ---
 
