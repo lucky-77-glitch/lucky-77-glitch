@@ -1,16 +1,30 @@
-## Hi there 👋
+# Mokhammad Lutfi Oktaviano
 
-<!--
-**lucky-77-glitch/lucky-77-glitch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Student Developer from Indonesia
 
-Here are some ideas to get you started:
+Interested in:
+- Programming
+- Web Development
+- Game Development
+- Cybersecurity
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🌐 My Portfolio
+
+[**Visit My Website →**](https://lucky-77-glitch.github.io/)
+
+---
+
+## 🔧 Currently Learning
+
+Programming • Web Development • Game Development • Cybersecurity
+
+---
+
+## 📂 Projects
+
+- Personal Website
+- Python Learning
+- Cybersecurity Learning
+- Game Experiments
