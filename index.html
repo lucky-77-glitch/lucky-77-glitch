@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Mokhammad Lutfi Oktaviano — Student Developer Portfolio"
+    >
+
+    <meta
+        name="author"
+        content="Mokhammad Lutfi Oktaviano"
+    >
+
+    <title>Mokhammad Lutfi Oktaviano — Student Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         LOADING SCREEN
+    ========================================== -->
+
+    <div class="loading-screen" id="loadingScreen">
+
+        <div class="loading-container">
+
+            <div class="loading-logo">
+                <img
+                    src="logo.jpeg"
+                    alt="MLO Logo"
+                >
+            </div>
+
+            <div class="loading-title">
+                MOKHAMMAD LUTFI
+            </div>
+
+            <div class="terminal-box">
+
+                <div class="terminal-line">
+                    <span>[01]</span> initializing portfolio...
+                </div>
+
+                <div class="terminal-line">
+                    <span>[02]</span> loading developer profile...
+                </div>
+
+                <div class="terminal-line">
+                    <span>[03]</span> loading skills...
+                </div>
+
+                <div class="terminal-line">
+                    <span>[04]</span> loading projects...
+                </div>
+
+                <div class="terminal-line">
+                    <span>[05]</span> establishing interface...
+                </div>
+
+                <div class="terminal-line">
+                    <span>[06]</span> system ready.
+                </div>
+
+            </div>
+
+            <div class="loading-progress">
+                <div
+                    class="loading-progress-bar"
+                    id="loadingProgressBar"
+                ></div>
+            </div>
+
+            <div
+                class="loading-percent"
+                id="loadingPercent"
+            >
+                0%
+            </div>
+
+            <div class="loading-status">
+                INITIALIZING...
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         MAIN WEBSITE
+    ========================================== -->
+
+    <div class="site">
+
+        <!-- =====================================
+             NAVBAR
+        ====================================== -->
+
+        <header class="navbar">
+
+            <div class="nav-container">
+
+                <a
+                    href="#home"
+                    class="nav-logo"
+                >
+
+                    
+
+                </a>
+
+
+                <nav class="nav-menu">
+
+                    <a
+                        href="#home"
+                        class="nav-link active"
+                    >
+                        Home
+                    </a>
+
+                    <a
+                        href="#about"
+                        class="nav-link"
+                    >
+                        About
+                    </a>
+
+                    <a
+                        href="#skills"
+                        class="nav-link"
+                    >
+                        Skills
+                    </a>
+
+                    <a
+                        href="#projects"
+                        class="nav-link"
+                    >
+                        Projects
+                    </a>
+
+                    <a
+                        href="#contact"
+                        class="nav-link"
+                    >
+                        Contact
+                    </a>
+
+                </nav>
+
+
+                <div class="nav-status">
+
+                    <span class="status-dot"></span>
+
+                    Available
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <main>
+
+
+            <!-- =================================
+                 HOME / HERO
+            ================================== -->
+
+            <section
+                class="section hero-section"
+                id="home"
+            >
+
+                <div class="hero-container">
+
+                    <div class="hero-content reveal">
+
+                        <div class="availability-badge">
+                            Student Developer
+                        </div>
+
+
+                        <h1 class="hero-title">
+
+                            Mokhammad
+                            <span>Lutfi.</span>
+
+                        </h1>
+
+
+                        <div class="hero-role">
+                            Learning. Building. Improving.
+                        </div>
+
+
+                        <p class="hero-description">
+                            Indonesian student interested in
+                            programming, game development,
+                            web development, and cybersecurity.
+                            Currently learning by building small
+                            projects and experimenting with code.
+                        </p>
+
+
+                        <div class="hero-buttons">
+
+                            <a
+                                href="#projects"
+                                class="button button-primary"
+                            >
+                                View Projects
+                            </a>
+
+                            <a
+                                href="#about"
+                                class="button button-secondary"
+                            >
+                                About Me
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CODE EDITOR -->
+
+                    <div class="terminal-code">
+
+<span class="comment">// developer profile</span>
+
+<span class="keyword">const</span> developer = {
+
+    <span class="property">name</span>:
+        <span class="string">"Mokhammad Lutfi Oktaviano"</span>,
+
+    <span class="property">role</span>:
+        <span class="string">"Student Developer"</span>,
+
+    <span class="property">location</span>:
+        <span class="string">"Indonesia"</span>,
+
+    <span class="property">learning</span>: [
+        <span class="string">"Programming"</span>,
+        <span class="string">"Game Development"</span>,
+        <span class="string">"Cybersecurity"</span>
+    ],
+
+    <span class="property">status</span>:
+        <span class="string">"Always Learning"</span>
+};
+
+<span class="function">console</span>.<span class="property">log</span>(developer);
+
+                    </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================
+                 ABOUT
+            ================================== -->
+
+            <section
+                class="section about-section"
+                id="about"
+            >
+
+                <div class="section-container">
+
+
+                    <div class="section-heading reveal">
+
+                        <div class="small-label">
+                            01 / ABOUT ME
+                        </div>
+
+                        <h2>
+                            Student
+                            <span>Developer.</span>
+                        </h2>
+
+                        <div class="section-line"></div>
+
+                    </div>
+
+
+                    <div class="about-grid">
+
+
+                        <div class="about-text reveal">
+
+                            <p>
+                                Hi, I'm
+                                <strong>
+                                    Mokhammad Lutfi Oktaviano
+                                </strong>.
+                            </p>
+
+                            <p>
+                                I'm a student from Indonesia who
+                                enjoys learning how software works
+                                and turning ideas into small
+                                projects.
+                            </p>
+
+                            <p>
+                                My current interests include
+                                <span class="highlight">
+                                    programming
+                                </span>,
+                                <span class="highlight">
+                                    game development
+                                </span>,
+                                web development, and
+                                <span class="highlight">
+                                    cybersecurity
+                                </span>.
+                            </p>
+
+                            <p>
+                                Most of my projects start as simple
+                                experiments. I build them, break
+                                them, fix them, and learn something
+                                new along the way.
+                            </p>
+
+                        </div>
+
+
+                        <div class="about-card reveal">
+
+                            <div class="about-card-icon">
+                                &lt;/&gt;
+                            </div>
+
+                            <h3>
+                                Student Developer
+                            </h3>
+
+                            <p>
+                                Learning through projects,
+                                experiments, and curiosity.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================
+                 SKILLS
+            ================================== -->
+
+            <section
+                class="section skills-section"
+                id="skills"
+            >
+
+                <div class="section-container">
+
+
+                    <div class="section-heading reveal">
+
+                        <div class="small-label">
+                            02 / SKILLS
+                        </div>
+
+                        <h2>
+                            What I
+                            <span>Work With.</span>
+                        </h2>
+
+                        <div class="section-line"></div>
+
+                    </div>
+
+
+                    <div class="skills-grid">
+
+
+                        <!-- Programming -->
+
+                        <div class="skill-card reveal">
+
+                            <div class="skill-icon">
+                                &lt;/&gt;
+                            </div>
+
+                            <h3>
+                                Programming
+                            </h3>
+
+                            <p>
+                                Learning programming fundamentals
+                                and building small applications.
+                            </p>
+
+                            <div class="skill-tags">
+
+                                <span>
+                                    Python
+                                </span>
+
+                                <span>
+                                    JavaScript
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Web -->
+
+                        <div class="skill-card reveal">
+
+                            <div class="skill-icon">
+                                &lt;WEB&gt;
+                            </div>
+
+                            <h3>
+                                Web Development
+                            </h3>
+
+                            <p>
+                                Creating responsive websites with
+                                modern HTML, CSS, and JavaScript.
+                            </p>
+
+                            <div class="skill-tags">
+
+                                <span>
+                                    HTML
+                                </span>
+
+                                <span>
+                                    CSS
+                                </span>
+
+                                <span>
+                                    JS
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Game -->
+
+                        <div class="skill-card reveal">
+
+                            <div class="skill-icon">
+                                ▶
+                            </div>
+
+                            <h3>
+                                Game Development
+                            </h3>
+
+                            <p>
+                                Experimenting with 2D games,
+                                mechanics, stories, and interfaces.
+                            </p>
+
+                            <div class="skill-tags">
+
+                                <span>
+                                    Godot
+                                </span>
+
+                                <span>
+                                    GDevelop
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Cybersecurity -->
+
+                        <div class="skill-card reveal">
+
+                            <div class="skill-icon">
+                                &gt;_
+                            </div>
+
+                            <h3>
+                                Cybersecurity
+                            </h3>
+
+                            <p>
+                                Exploring ethical cybersecurity,
+                                CTF challenges, and Linux basics.
+                            </p>
+
+                            <div class="skill-tags">
+
+                                <span>
+                                    Linux
+                                </span>
+
+                                <span>
+                                    CTF
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Git -->
+
+                        <div class="skill-card reveal">
+
+                            <div class="skill-icon">
+                                ◇
+                            </div>
+
+                            <h3>
+                                Git & GitHub
+                            </h3>
+
+                            <p>
+                                Managing projects, publishing code,
+                                and learning version control.
+                            </p>
+
+                            <div class="skill-tags">
+
+                                <span>
+                                    Git
+                                </span>
+
+                                <span>
+                                    GitHub
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Learning -->
+
+                        <div class="skill-card reveal">
+
+                            <div class="skill-icon">
+                                +
+                            </div>
+
+                            <h3>
+                                Always Learning
+                            </h3>
+
+                            <p>
+                                Trying new tools and improving
+                                through hands-on experiments.
+                            </p>
+
+                            <div class="skill-tags">
+
+                                <span>
+                                    Learn
+                                </span>
+
+                                <span>
+                                    Build
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================
+                 PROJECTS
+            ================================== -->
+
+            <section
+                class="section projects-section"
+                id="projects"
+            >
+
+                <div class="section-container">
+
+
+                    <div class="section-heading reveal">
+
+                        <div class="small-label">
+                            03 / PROJECTS
+                        </div>
+
+                        <h2>
+                            Things I've
+                            <span>Built.</span>
+                        </h2>
+
+                        <div class="section-line"></div>
+
+                    </div>
+
+
+                    <div class="projects-grid">
+
+
+                        <!-- PROJECT 01 -->
+
+<article class="project-card reveal">
+
+    <div class="project-top">
+
+        <div class="project-number">
+            PROJECT / 01
+        </div>
+
+        <div class="project-icon">
+            &lt;/&gt;
+        </div>
+
+    </div>
+
+    <h3>
+        Personal Website
+    </h3>
+
+    <p>
+        A personal developer portfolio website
+        built to showcase my learning journey,
+        skills, and projects.
+    </p>
+
+    <div class="project-tech">
+
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+
+    </div>
+
+    <a
+        href="#"
+        target="_blank"
+        rel="noopener"
+        class="project-link"
+    >
+        View Project ↗
+    </a>
+
+</article>
+<!-- PROJECT 02 -->
+
+<article class="project-card reveal">
+
+    <div class="project-top">
+
+        <div class="project-number">
+            PROJECT / 02
+        </div>
+
+        <div class="project-icon">
+            PY
+        </div>
+
+    </div>
+
+    <h3>
+        Python Learning
+    </h3>
+
+    <p>
+        Small Python programs and exercises
+        created while learning programming.
+    </p>
+
+    <div class="project-tech">
+
+        <span>Python</span>
+        <span>GitHub</span>
+
+    </div>
+
+    <a
+        href="#"
+        target="_blank"
+        rel="noopener"
+        class="project-link"
+    >
+        View Project ↗
+    </a>
+
+</article>
+
+
+<!-- PROJECT 03 -->
+
+<article class="project-card reveal">
+
+    <div class="project-top">
+
+        <div class="project-number">
+            PROJECT / 03
+        </div>
+
+        <div class="project-icon">
+            &gt;_
+        </div>
+
+    </div>
+
+    <h3>
+        Cybersecurity Learning
+    </h3>
+
+    <p>
+        Beginner cybersecurity experiments,
+        Linux practice, and CTF learning.
+    </p>
+
+    <div class="project-tech">
+
+        <span>Linux</span>
+        <span>CTF</span>
+        <span>Security</span>
+
+    </div>
+
+    <a
+        href="#"
+        target="_blank"
+        rel="noopener"
+        class="project-link"
+    >
+        View Project ↗
+    </a>
+
+</article>
+<!-- PROJECT 04 -->
+
+<article class="project-card reveal">
+
+    <div class="project-top">
+
+        <div class="project-number">
+            PROJECT / 04
+        </div>
+
+        <div class="project-icon">
+            ▶
+        </div>
+
+    </div>
+
+    <h3>
+        Game Experiments
+    </h3>
+
+    <p>
+        Small game development experiments
+        exploring mechanics, pixel art,
+        interface, and storytelling.
+    </p>
+
+    <div class="project-tech">
+
+        <span>Godot</span>
+        <span>GDevelop</span>
+
+    </div>
+
+    <a
+        href="#"
+        target="_blank"
+        rel="noopener"
+        class="project-link"
+    >
+        View Project ↗
+    </a>
+
+</article>
+</div>
+</div>
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="section contact-section" id="contact">
+
+    <div class="section-container">
+
+        <div class="section-heading reveal">
+
+            <div class="small-label">
+                04 / CONTACT
+            </div>
+
+            <h2>
+                Let's Connect<span>.</span>
+            </h2>
+
+            <p>
+                Want to see what I'm building?
+                Find my projects and learning journey
+                on GitHub.
+            </p>
+
+        </div>
+
+
+        <div class="contact-card reveal">
+
+            <div class="contact-info">
+
+                <div class="contact-icon">
+                    &gt;_
+                </div>
+
+                <div>
+
+                    <div class="contact-label">
+                        GITHUB
+                    </div>
+
+                    <h3>
+                        lucky-77-glitch
+                    </h3>
+
+                    <p>
+                        Programming • Game Development
+                        • Cybersecurity
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <a
+                href="https://github.com/lucky-77-glitch"
+                target="_blank"
+                rel="noopener"
+                class="contact-button"
+            >
+                Open GitHub ↗
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-logo">
+            MLO<span>.</span>
+        </div>
+
+        <div class="footer-text">
+            Learning • Building • Improving
+        </div>
+
+        <div class="footer-copy">
+            © 2026 Mokhammad Lutfi Oktaviano ® GF Bulan
+        </div>
+
+    </div>
+
+</footer>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
