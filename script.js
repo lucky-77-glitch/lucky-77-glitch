@@ -410,3 +410,47 @@ window.addEventListener(
 
     }
 );
+const musicToggle = document.getElementById("musicToggle");
+const bgMusic = document.getElementById("bgMusic");
+
+if (musicToggle && bgMusic) {
+
+    const musicText = musicToggle.querySelector(".music-text");
+
+    function updateMusicButton() {
+
+        if (!bgMusic.paused) {
+            musicToggle.classList.add("active");
+            musicText.textContent = "MUSIC ON";
+        } else {
+            musicToggle.classList.remove("active");
+            musicText.textContent = "MUSIC OFF";
+        }
+
+    }
+
+    musicToggle.addEventListener("click", () => {
+
+        if (bgMusic.paused) {
+
+            bgMusic.play()
+                .then(() => {
+                    updateMusicButton();
+                })
+                .catch(() => {
+                    console.log("Music playback was blocked.");
+                });
+
+        } else {
+
+            bgMusic.pause();
+            updateMusicButton();
+
+        }
+
+    });
+
+    bgMusic.addEventListener("play", updateMusicButton);
+    bgMusic.addEventListener("pause", updateMusicButton);
+
+}
